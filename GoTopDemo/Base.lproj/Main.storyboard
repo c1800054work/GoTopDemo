@@ -59,7 +59,7 @@
         <!--scrollView-->
         <scene sceneID="pTQ-H4-JZ6">
             <objects>
-                <viewController id="Ukt-0R-Awa" customClass="ScrollViewController" sceneMemberID="viewController">
+                <viewController id="Ukt-0R-Awa" customClass="ScrollViewController" customModule="GoTopDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rP4-Lm-YMn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1582"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,7 +145,7 @@
                                 </constraints>
                                 <state key="normal" image="icon_go_top"/>
                                 <connections>
-                                    <action selector="goTopBtnPress:" destination="Ukt-0R-Awa" eventType="touchUpInside" id="8vL-7K-sik"/>
+                                    <action selector="goTopBtnPress:" destination="Ukt-0R-Awa" eventType="touchUpInside" id="Bfy-Ye-e0i"/>
                                     <action selector="goTopBtnPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mes-XS-ocM"/>
                                 </connections>
                             </button>
@@ -165,7 +165,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="1582"/>
                     <connections>
-                        <outlet property="scrollview" destination="MB7-8X-34Z" id="HFb-wR-dO7"/>
+                        <outlet property="scrollview" destination="MB7-8X-34Z" id="OdN-5M-45O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szF-aC-Tte" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
